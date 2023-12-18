@@ -44,7 +44,7 @@ public:
         }
         
         githubButton.onClick = [this] {
-            juce::URL("https://github.com/keithhetrick").launchInDefaultBrowser();
+            juce::URL("https://github.com/keithhetrick/Magellan").launchInDefaultBrowser();
         };
         addAndMakeVisible(githubButton);
 
